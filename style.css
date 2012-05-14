@@ -1,22 +1,45 @@
+body{
+	background-color:#EDF7F2;
+}
+
 #container
 {
+<<<<<<< HEAD
 	margin: 0 16px;
 	background: #fff;
+=======
+	margin: 0 20px;
+>>>>>>> 0dcc8000a0df11331adb059237badd3d75d73db9
 }
 
 #header
 {
-	background: #ccc;
-	padding: 20px;
+	background: #4C1B1B;
+	padding: 10px;
+	border-radius:5px 5px 5px;
+	height:100px;
 }
 
-#header h1 { margin: 0; }
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+#header h1 { 
+	margin: 0;
+	color:white;
+	text-align:center;
+	margin-top:30px;
+	font-family:Helvetica, Helv, swiss, sans-serif;
+	font-size:40px;
+}
 
 #navigation
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #1CC0AA;
 }
 
 #navigation ul
@@ -47,22 +70,27 @@
 {
 	clear: left;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px #4C1B1B;
+	box-shadow: 0px 0px 5px #4C1B1B;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	font-family:'Trebuchet MS', Geneva, sans-serif;
+	
 }
 
 #edito h2
 {
-	color: #000;
+	color: #4C1B1B;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -70,26 +98,40 @@
 #news
 {	
 	float: left;
-	width: 40%;
+	width: 43%;
 	padding: 20px;
-	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	margin: 22px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px #4C1B1B;
+	box-shadow: 0px 0px 5px #4C1B1B;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.90;
+	color:#4C1B1B;
+	font-family:'Trebuchet MS', Geneva, sans-serif;
 }
+
+#news h3 {
+	font-size:15px;
+	}
 
 #footer
 {
 	clear: both;
+<<<<<<< HEAD
 	background: #ccc;
 	text-align: right;
 	padding: 16px;
+=======
+	background: #4C1B1B;
+	text-align: center;
+	padding: 20px;
+>>>>>>> 0dcc8000a0df11331adb059237badd3d75d73db9
 	height: 1%;
+	border-radius:5px 5px 5px;
+	color:white;
 }
