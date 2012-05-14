@@ -1,7 +1,10 @@
+body{
+	background-color:#EDF7F2;
+}
+
 #container
 {
 	margin: 0 20px;
-	background: #fff;
 }
 
 #header
@@ -19,11 +22,12 @@ a {
 }
 
 #header h1 { 
-		margin: 0;
-		color:white;
-		text-align:center;
-		margin-top:30px;
-		font-family:Helvetica, Helv, swiss, sans-serif;
+	margin: 0;
+	color:white;
+	text-align:center;
+	margin-top:30px;
+	font-family:Helvetica, Helv, swiss, sans-serif;
+	font-size:40px;
 }
 
 #navigation
@@ -61,7 +65,10 @@ a {
 {
 	clear: left;
 	padding: 20px;
-	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 40px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 5px #4C1B1B;
@@ -72,12 +79,13 @@ a {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	font-family:'Trebuchet MS', Geneva, sans-serif;
 	
 }
 
 #edito h2
 {
-	color: #000;
+	color: #4C1B1B;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -87,7 +95,7 @@ a {
 	float: left;
 	width: 43%;
 	padding: 20px;
-	margin: 20px;
+	margin: 22px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 5px #4C1B1B;
@@ -99,7 +107,12 @@ a {
 	background-clip: padding-box;
 	opacity: 0.90;
 	color:#4C1B1B;
+	font-family:'Trebuchet MS', Geneva, sans-serif;
 }
+
+#news h3 {
+	font-size:15px;
+	}
 
 #footer
 {
