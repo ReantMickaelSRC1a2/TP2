@@ -1,13 +1,21 @@
+body {
+color:black;
+background-color:white;
+background-image:url(hollande.jpg);
+}
+
 #container
 {
 	margin: 0 30px;
 	background: #fb03f2;
+background-image:url(hollande.jpg);
 }
 
 #header
 {
 	background: #fb03f2;
 	padding: 20px;
+background-image:url(hollande.jpg);
 }
 
 #header h1 { margin: 0; }
@@ -17,6 +25,7 @@
 	float: left;
 	width: 100%;
 	background: #fb03f2;
+background-image:url(hollande.jpg);
 }
 
 #navigation ul
@@ -36,7 +45,7 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #FF00FF;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
@@ -83,6 +92,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+background-image:url(hollande.jpg);
 }
 
 #footer
