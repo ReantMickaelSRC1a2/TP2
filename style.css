@@ -1,22 +1,36 @@
 #container
 {
-	margin: 0 30px;
+	margin: 0 20px;
 	background: #fff;
 }
 
 #header
 {
-	background: #ccc;
-	padding: 20px;
+	background: #4C1B1B;
+	padding: 10px;
+	border-radius:5px 5px 5px;
+	height:100px;
 }
 
-#header h1 { margin: 0; }
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+#header h1 { 
+		margin: 0;
+		color:white;
+		text-align:center;
+		margin-top:30px;
+		font-family:Helvetica, Helv, swiss, sans-serif;
+}
 
 #navigation
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #1CC0AA;
 }
 
 #navigation ul
@@ -48,16 +62,17 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px #4C1B1B;
+	box-shadow: 0px 0px 5px #4C1B1B;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	
 }
 
 #edito h2
@@ -70,26 +85,29 @@
 #news
 {	
 	float: left;
-	width: 40%;
+	width: 43%;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 5px #4C1B1B;
+	box-shadow: 0px 0px 5px #4C1B1B;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.90;
+	color:#4C1B1B;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
-	text-align: right;
+	background: #4C1B1B;
+	text-align: center;
 	padding: 20px;
 	height: 1%;
+	border-radius:5px 5px 5px;
+	color:white;
 }
